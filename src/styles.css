@@ -1,0 +1,136 @@
+:root {
+  color: #1c1917;
+  background: #f6f3ee;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.shell {
+  max-width: 38rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1rem 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 650;
+  margin: 0 0 1rem;
+}
+
+.thread {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.hint {
+  color: #57534e;
+}
+
+.exchange {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.user,
+.assistant {
+  margin: 0;
+  padding: 0.75rem 0.9rem;
+  border-radius: 0.35rem;
+  line-height: 1.45;
+}
+
+.user {
+  align-self: flex-end;
+  max-width: 85%;
+  background: #e7e1d8;
+}
+
+.assistant {
+  background: #fff;
+  border: 1px solid #e4ddd3;
+}
+
+.assistant p {
+  margin: 0 0 0.45rem;
+}
+
+.assistant p:last-child {
+  margin-bottom: 0;
+}
+
+mark {
+  background: #d5e0ea;
+  color: inherit;
+}
+
+.composer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem 0 1rem;
+  background: #f6f3ee;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+input {
+  flex: 1;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid #cfc6ba;
+  border-radius: 0.3rem;
+  background: #fff;
+  color: inherit;
+}
+
+button {
+  background: #3d4f61;
+  color: #fff;
+  border: 0;
+  border-radius: 0.3rem;
+  padding: 0.6rem 0.9rem;
+}
+
+button:disabled,
+input:disabled {
+  opacity: 0.55;
+}
+
+.spans {
+  margin-top: 0.35rem;
+  font-size: 0.92rem;
+}
+
+.spans ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.picked {
+  font-weight: 650;
+}
+
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
