@@ -1,4 +1,6 @@
-# Weather chat
+# Weather chat (DEMO)
+
+**This is a demo project** for testing [TypeSafe Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) (System One). It is not a production weather product.
 
 Ask for the weather in a place. The app answers with the conditions there right now.
 
@@ -6,7 +8,7 @@ Ask for the weather in a place. The app answers with the conditions there right 
 
 Install Node.js 20 or newer.
 
-In this directory, run `npm install`.
+In this directory, run `pnpm install`.
 
 Create a file named `.env` in this directory. Put the TypeSafe key in that file:
 
@@ -16,7 +18,7 @@ TYPESAFE_API_KEY=paste-your-key-here
 
 The Vite process reads `.env`. The browser does not receive the key. Open-Meteo supplies the weather and needs no key.
 
-Run `npm run dev`.
+Run `pnpm run dev`.
 
 Open the URL that Vite prints.
 
@@ -24,7 +26,7 @@ Type `What's the weather in New York` and send it.
 
 If you change `.env` while the server is already running, stop the server and start it again.
 
-You can also run `npm run build` and then `npm run preview`. Both `dev` and `preview` serve `POST /api/turn` through the `weatherApi()` Vite plugin. Serving only the static files in `dist/` leaves that API unavailable.
+You can also run `pnpm run build` and then `pnpm run preview`. Both `dev` and `preview` serve `POST /api/turn` through the `weatherApi()` Vite plugin. Serving only the static files in `dist/` leaves that API unavailable.
 
 ## How Jev picks the place
 

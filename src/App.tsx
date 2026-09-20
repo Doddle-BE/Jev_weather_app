@@ -44,7 +44,17 @@ export function App() {
 
   return (
     <main className="shell">
-      <h1>Weather</h1>
+      <header className="intro">
+        <p className="demo-badge">DEMO</p>
+        <h1>Weather</h1>
+        <p className="demo-note">
+          Demo project for testing{" "}
+          <a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">
+            TypeSafe Jev
+          </a>
+          .
+        </p>
+      </header>
       <div className="thread">
         {turns.length === 0 ? <p className="hint">Ask for the weather in a city.</p> : null}
         {turns.map((turn) => (
