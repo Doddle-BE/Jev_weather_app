@@ -22,7 +22,7 @@ const NO_PLACE_DESCRIPTION =
   "None of the other options is a city or place. The user has not named one in this request or in an earlier request.";
 
 export const MISSING_KEY_MESSAGE =
-  "Set TYPESAFE_API_KEY in .env at the project root, then restart npm run dev.";
+  "Set TYPESAFE_API_KEY in .env at the project root, then restart pnpm run dev.";
 
 const MAX_SPAN_WORDS = 3;
 const MAX_SPANS = 254;
