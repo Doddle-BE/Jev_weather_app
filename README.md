@@ -1,4 +1,6 @@
-# Weather chat
+# Weather chat (DEMO)
+
+**This is a demo project** for testing [TypeSafe Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) (System One). It is not a production weather product.
 
 Ask for the weather in a place. The app answers with the conditions there right now.
 

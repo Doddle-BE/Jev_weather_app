@@ -18,10 +18,37 @@ body {
   box-sizing: border-box;
 }
 
+.intro {
+  margin: 0 0 1rem;
+}
+
+.demo-badge {
+  display: inline-block;
+  margin: 0 0 0.35rem;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #3d4f61;
+  background: #e7e1d8;
+  border-radius: 0.2rem;
+}
+
 h1 {
   font-size: 1.25rem;
   font-weight: 650;
-  margin: 0 0 1rem;
+  margin: 0 0 0.35rem;
+}
+
+.demo-note {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #57534e;
+  line-height: 1.4;
+}
+
+.demo-note a {
+  color: #3d4f61;
 }
 
 .thread {
